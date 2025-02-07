@@ -1,3 +1,9 @@
 export function reply(message){
-    return `${message} to you too`;
+    let reply = `${message} to you too`;
+    if(message.toLowerCase().includes("nice")){
+        reply = "Yes ... I think that's nice too"
+    
+    }
+
+    return reply;
 }
