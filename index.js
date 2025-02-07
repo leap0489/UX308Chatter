@@ -98,7 +98,7 @@ h1 {
       <ul class="message-list">
         
         <li class="message-item item-primary">
-          Bot says: oi, tudo bom?
+          Bot says: Welcome to Laynol's Kitchen! Today we are serving Pizza and Chicken Tenders. Which would you like?
         </li>
       </ul>
       <form class="message-input">

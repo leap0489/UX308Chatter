@@ -13,7 +13,7 @@ export function reply(message){
         reply = "One pepperoni pizza on the way to you! Payment will be required upon delivery."
     }
     else if (message.toLowerCase().includes("chicken") || message.toLowerCase().includes("tenders")){
-        reply = "Awesome! How many pieces would you like? We can do 3 or 5 pieces."
+        reply = "Awesome! What size meal would you like? We can do a 3-piece or a 5-piece."
     }
     else if (message.toLowerCase().includes("3") || message.toLowerCase().includes("5")){
         reply = "Great! Do you want plum or ranch as your dipping sauce?"
