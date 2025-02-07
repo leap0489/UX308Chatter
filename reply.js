@@ -21,6 +21,9 @@ export function reply(message){
     else if (message.toLowerCase().includes("plum") || message.toLowerCase().includes("ranch")){
         reply = "One chicken strip order on the way to you! Payment will be required upon delivery."
     }
+    else if (message.toLowerCase().includes("thank")){
+        reply = "Our pleasure :)"
+    }
 
 
 
